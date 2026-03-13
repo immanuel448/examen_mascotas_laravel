@@ -7,6 +7,7 @@
     <h2>Editar Mascota</h2>
 
     <form method="POST" action="/mascotas/update/{{ $mascota->id }}">
+        @csrf
         <p>Nombre: <input type="text" name="nombre" value="{{ $mascota->nombre }}" required></p>
         <p>Tipo: <input type="text" name="tipo" value="{{ $mascota->tipo }}" required></p>
         <p>Edad: <input type="number" name="edad" value="{{ $mascota->edad }}" required></p>

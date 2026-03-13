@@ -7,6 +7,7 @@
     <h2>Crear Mascota</h2>
 
     <form method="POST" action="/mascotas/store">
+        @csrf
         <p>Nombre: <input type="text" name="nombre" required></p>
         <p>Tipo: <input type="text" name="tipo" required></p>
         <p>Edad: <input type="number" name="edad" required></p>
