@@ -137,6 +137,8 @@ public function usuario()
 
 ## Autor
 
+**Lucero Emmanuel**  
+Desarrollado por [immanuel448](https://github.com/immanuel448)
 
 
 
