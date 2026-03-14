@@ -56,8 +56,7 @@ routes/
 - Protección básica de acceso al panel
 
 ### Módulo de Usuarios
-
-Permite administrar usuarios del sistema.
+**Permite administrar usuarios del sistema.**
 
 Operaciones disponibles:
 
@@ -67,8 +66,7 @@ Operaciones disponibles:
 - Eliminar usuario
 
 ### Módulo de Mascotas
-
-Permite administrar mascotas registradas.
+**Permite administrar mascotas registradas.**
 
 Operaciones disponibles:
 
@@ -123,16 +121,16 @@ public function usuario()
 2. **Entrar al proyecto**
    cd nombre-del-proyecto
 
-3. Instalar dependencias
+3. **Instalar dependencias**
    composer install
    
-4. Configurar archivo .env
+4. **Configurar archivo .env**
     Ajusta los datos de la base de datos según tu entorno.
 
-5. Ejecutar servidor
+5. **Ejecutar servidor**
    php artisan serve
 
-6. Abrir en el navegador
+6. **Abrir en el navegador**
    http://127.0.0.1:8000
 
 ---
